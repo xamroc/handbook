@@ -42,7 +42,7 @@
       </div>
       <h1 id="logo"><a href="/" title="To the home page">Handbook</a></h1>
       <nav id="site-navigation" role="navigation">
-        <h2>Site navigation</h2>
+        <h2 class="sr-only">Site navigation</h2>
         <ul role="menubar">
           <li role="presentation"><a href="/setup" role="menuitem">Setup</a></li>
           <li role="presentation"><a href="/primer" role="menuitem">Primer</a></li>
@@ -53,16 +53,19 @@
     </header>
     <main class="container" role="main">
       <div class="row">
-        <aside id="sidebar" class="col-md-3">
-          <h2>Sidebar</h2>
+        <aside id="sidebar" class="col-md-3 sidebar-nav">
+          <h2 class="sr-only">Sidebar</h2>
           <nav role="navigation">
-            <h3>Topic/page navigation</h3>
+            <h3 class="sr-only">Topic/page navigation</h3>
+            <p>Sidebar links!</p>
             <!-- tree of links here -->
           </nav>
         </aside>
         <article id="lesson" class="col-md-9">
           <header>
-            <h2>Lesson: Wireframing and review</h2>
+            <h2 class="lesson-title">
+              <span class="sr-only">Lesson: </span>Wireframing and review
+            </h2>
           </header>
           <section id="lesson-objectives">
             <h3>Lesson objectives</h3>
@@ -75,7 +78,7 @@
             </ul>
           </section>
           <section id="introductory-material">
-            <h3>Introductory material</h3>
+            <h3 class="sr-only">Introductory material</h3>
             <p>
               OK, I don't know about you, but I'm tired of that boring Mojo site.
               I want to build something that's <em>useful</em> to me (or us). So, I'm thinking,
@@ -600,11 +603,11 @@
     <footer class="container">
       <div class="row">
         <section id="copyright" class="col-md-3">
-          <h2>Copyright</h2>
+          <h2 class="sr-only">Copyright</h2>
           <!-- site copyright here -->
         </section>
         <nav id="site-map" class="col-md-6" role="navigation">
-          <h2>Site map</h2>
+          <h2 class="sr-only">Site map</h2>
           <ul role="menu">
             <li role="presentation"><a href="/setup" role="menuitem">Setup</a></li>
             <li role="presentation"><a href="/primer" role="menuitem">Primer</a></li>
@@ -615,7 +618,7 @@
           </ul>
         </nav>
         <section id="contact" class="col-md-3">
-            <h2>Contact info</h2>
+            <h2 class="sr-only">Contact info</h2>
           <!-- contact info here -->
         </section>
       </div>
