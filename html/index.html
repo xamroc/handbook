@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This really is just a WDI Prework">
     <meta name="author" content="Marco Lau">
-    <link rel="stylesheet" href="css/vendor/bootstrap.css" media="all">
-    <link rel="stylesheet" href="css/vendor/bootstrap-theme.css" media="all">
-    <link rel="stylesheet" href="css/main.css" media="all">
+    <link rel="stylesheet" href="/css/vendor/bootstrap.css" media="all">
+    <link rel="stylesheet" href="/css/vendor/bootstrap-theme.css" media="all">
+    <link rel="stylesheet" href="/css/main.css" media="all">
     <!--[if lt IE 9]>
       <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -137,17 +137,20 @@
             <figure id="student-persona">
               <figcaption>Student persona</figcaption>
               <dl class="persona">
-                <dt>Persona</dt>
-                <dd>Student</dd>
-
-                <dt>Photo</dt>
-                <dd>
-                  <img src="images/sally-student.jpg" width="180" height="236" alt="">
-                </dd>
-
-                <dt>Fictional name</dt>
-                <dd>Sally Student</dd>
-
+                <div class="row">
+                  <dt class="col-md-4">Persona</dt>
+                  <dd class="col-md-8">Student</dd>
+                </div>
+                <div class="row">
+                  <dt class="col-md-4">Photo</dt>
+                  <dd class="col-md-8">
+                    <img src="/images/sally-student.jpg" width="180" height="236" alt="">
+                  </dd>
+                </div>
+                <div class="row">
+                  <dt class="col-md-4">Fictional name</dt>
+                  <dd class="col-md-8">Sally Student</dd>
+                </div>
                 <dt>Major responsibilities</dt>
                 <dd>Learn web development skills as quickly as possible</dd>
 
@@ -204,17 +207,20 @@
             <figure id="instructor-persona">
               <figcaption>Instructor persona</figcaption>
               <dl class="persona">
-                <dt>Persona</dt>
-                <dd>Instructor</dd>
-
-                <dt>Photo</dt>
-                <dd>
-                  <img src="images/irving-instructor.jpg" width="180" height="249" alt="">
-                </dd>
-
-                <dt>Fictional name</dt>
-                <dd>Irving Instructor</dd>
-
+                <div class="row">
+                  <dt>Persona</dt>
+                  <dd>Instructor</dd>
+                </div>
+                <div class="row">
+                  <dt>Photo</dt>
+                  <dd>
+                    <img src="/images/irving-instructor.jpg" width="180" height="249" alt="">
+                  </dd>
+                </div>
+                <div class="row">
+                  <dt>Fictional name</dt>
+                  <dd>Irving Instructor</dd>
+                </div>
                 <dt>Major responsibilities</dt>
                 <dd>Teach web development skills in an immersive setting</dd>
 
@@ -274,17 +280,20 @@
             <figure id="guest-persona">
               <figcaption>Guest persona</figcaption>
               <dl class="persona">
-                <dt>Persona</dt>
-                <dd>Guest</dd>
-
-                <dt>Photo</dt>
-                <dd>
-                  <img src="images/gertrude-guest.jpg" width="180" height="254" alt="">
-                </dd>
-
-                <dt>Fictional name</dt>
-                <dd>Gertrude Guest</dd>
-
+                <div class="row">
+                  <dt>Persona</dt>
+                  <dd>Guest</dd>
+                </div>
+                <div class="row">
+                  <dt>Photo</dt>
+                  <dd>
+                    <img src="/images/gertrude-guest.jpg" width="180" height="254" alt="">
+                  </dd>
+                </div>
+                <div class="row">
+                  <dt>Fictional name</dt>
+                  <dd>Gertrude Guest</dd>
+                </div>
                 <dt>Major responsibilities</dt>
                 <dd>Curious as to what all the hoopla is about. Works in marketing.</dd>
 
@@ -510,7 +519,7 @@
             </p>
             <figure id="example-page-basic-wireframe">
               <figcaption>Example page basic wireframe</figcaption>
-              <img src="images/wireframe-000.png" width="940" height="555" alt="">
+              <img src="/images/wireframe-000.png" width="940" height="555" alt="">
             </figure>
           </section>
           <section id="why-so-sketchy">
@@ -624,7 +633,7 @@
       </div>
     </footer>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>

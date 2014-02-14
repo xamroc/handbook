@@ -92,3 +92,36 @@ dl.faq dt {
   color: hsla( 2, 64.7%, 50.0%, 1 );
 }
 dl.faq dd { margin: 0 40px 20px; }
+
+dl.persona { padding: 15px; }
+figcaption {
+ font-size: 22px;
+ color: hsla( 194, 66.4%, 53.3%, 1 );
+}
+dl.persona dt {
+ font-size: 18px;
+ font-weight: normal;
+ color: hsla( 0, 0.0%, 100.0%, 1 );
+ padding: 10px;
+}
+dl.persona dd {
+ font-size: 16px;
+ padding: 12px 10px;
+ background-color: hsla( 0, 0.0%, 100.0%, 1 );
+}
+dl.persona div { border: 1px solid hsla( 0, 0.0%, 100.0%, 1 ); }
+#student-persona dl.persona div,
+#student-persona dl.persona dt {
+ background-color: hsla( 120, 39.6%, 46.0%, 1 );
+}
+#student-persona img { border: 1px solid hsla( 120, 39.6%, 46.0%, 1 ); }
+#instructor-persona dl.persona div,
+#instructor-persona dl.persona dt {
+ background-color: hsla( 208, 55.9%, 44.5%, 1 );
+}
+#instructor-persona img { border: 1px solid hsla( 208, 55.9%, 44.5%, 1 ); }
+#guest-persona dl.persona div,
+#guest-persona dl.persona dt {
+ background-color: hsla( 35, 84.5%, 54.3%, 1 );
+}
+#guest-persona img { border: 1px solid hsla( 35, 84.5%, 54.3%, 1 ); }
